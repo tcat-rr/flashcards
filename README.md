@@ -13,6 +13,6 @@ nav_order: 0
 
 {% for node in site.data.data["Nodes"] %}
     <div class="deck-name">
-        {{ node[0] }}
+        <a href="../study?deck={{ node[0] }}">{{ node[0] | replace: "<", "&lt;" }}</a>
     </div>
 {% endfor %}
