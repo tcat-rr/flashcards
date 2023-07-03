@@ -1,0 +1,33 @@
+{
+    "Nodes": {
+        "Like Melodies": {
+            "Song": {
+                "Line01": {
+                    "Question": "Wie Melodien zieht es",
+                    "Answer": "Thoughts, like melodies"
+                }, "Line02": {
+                    "Question": "Mir leise durch den Sinn,",
+                    "Answer": "Steal softly through my mind,"
+                }, "Line03": {
+                    "Question": "Wie Fruhlingsblumen bluht es",
+                    "Answer": "Like spring flowers they blossom"
+                }, "Line04": {
+                    "Question": "Und schwebt wie Duft dahin.",
+                    "Answer": "And drift away like fragrance"
+                }, "Line05": {
+                    "Question": "Doch kommt das Wort und fabt es",
+                    "Answer": "Yet when words come and capture them"
+                }, "Line06": {
+                    "Question": "Und fuhrt es vor das Aug',",
+                    "Answer": "And bring them before my eyes"
+                }, "Line07": {
+                    "Question": "Wie Nebelgrau erblabt es",
+                    "Answer": "They turn pale like grey mist"
+                }, "Line08": {
+                    "Question": "Und schwindet wie ein Hauch.",
+                    "Answer": "And vanish like a breath"
+                }
+            }
+        }   
+    }
+}

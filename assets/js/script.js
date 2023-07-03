@@ -12,6 +12,10 @@ if(document.getElementById('filter-name')) {
     
 }
 
+function get_decks() {
+    
+}
+
 function filterTable(e) {
     if(e.target.id == "filter-name") {
         var filter = e.target.value.toLowerCase();
