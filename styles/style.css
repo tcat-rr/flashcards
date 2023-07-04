@@ -63,7 +63,7 @@
     }
     
     .songName {
-        width: 150px;
+        width: 200px;
         padding: 10px;
         border: 3px solid #212227;
         background: #BDD4E7;
@@ -71,9 +71,10 @@
         position: relative;
         margin:auto;
         border-radius: 20px;
+        margin-bottom:10px;
     }
     .songName:hover {
-        width: 150px;
+        width: 200px;
         padding: 10px;
         border: 3px solid #BDD4E7;
         background: #212227;
@@ -81,6 +82,8 @@
         position: relative;
         margin:auto;
         border-radius: 20px;
+        padding:10px;
+        margin-bottom:10px;
     }
     a:link {
         text-decoration:none;
@@ -279,7 +282,7 @@
     }
     
     .songName {
-        width: 150px;
+        width: 200px;
         padding: 10px;
         border: 3px solid #212227;
         background: #BDD4E7;
@@ -287,9 +290,11 @@
         position: relative;
         margin:auto;
         border-radius: 20px;
+        padding:10px;
+        margin-bottom:10px;
     }
     .songName:hover {
-        width: 150px;
+        width: 200px;
         padding: 10px;
         border: 3px solid #BDD4E7;
         background: #212227;
@@ -297,6 +302,8 @@
         position: relative;
         margin:auto;
         border-radius: 20px;
+        padding:10px;
+        margin-bottom:10px;
     }
     a:link {
         text-decoration:none;
