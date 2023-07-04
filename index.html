@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flashcard Game</title>
+      
+      <link rel="stylesheet" href="./styles/style.css">
+      
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+      <script>
+
+        $(function() {
+
+
+            var people = [];
+
+            $.getJSON('./data/songs.json', function(data) {
+                
+                $.each(data.Songs, function(i, f) {
+                    $('#songList').append("<div id=" + i + " class='songName'><a href='./play.html?game=" + encodeURIComponent(i) + "'>" + i + "</a><div>");
+                });
+
+            });
+            
+            
+        });
+      </script>
+  </head>
+  <body>
+    <div>
+        <div id="gameTitle">Select a topic:</div><br/>
+        
+        <div id="songList"></div>
+    </div>
+  </body>
+</html>

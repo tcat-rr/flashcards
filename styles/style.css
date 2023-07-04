@@ -1,0 +1,471 @@
+@media screen and (max-width: 600px) {
+    html {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: #8693AB;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: Georgia, serif;
+        font-size:4vw;
+        position: relative;
+        display: block;
+        background: #8693AB;
+        top: 15%;
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .center {
+        position: relative;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        text-align:center;
+    }
+
+    #question {
+        width: 100%;
+        padding-top:10px;
+        padding-bottom:20px;
+    }
+
+    #answer {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    #inputgroup {
+        width: 100%;
+    }
+
+    #back {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    
+        #songList {
+        display:block;
+        position: relative;
+        width:100%;
+        margin: auto;
+        text-align:center;
+    }
+    
+    .songName {
+        width: 150px;
+        padding: 10px;
+        border: 3px solid #212227;
+        background: #BDD4E7;
+        display:block;
+        position: relative;
+        margin:auto;
+        border-radius: 20px;
+    }
+    .songName:hover {
+        width: 150px;
+        padding: 10px;
+        border: 3px solid #BDD4E7;
+        background: #212227;
+        display:block;
+        position: relative;
+        margin:auto;
+        border-radius: 20px;
+    }
+    a:link {
+        text-decoration:none;
+        color:#212227;
+    }
+    a:visited {
+        text-decoration:none;
+        color:#212227;
+    }
+    
+    a:hover {
+        text-decoration:none;
+        color:white;
+    }
+
+    input[type=submit] {
+        width: 10em;  height: 3em;
+        border:3px solid #AAB9CF;
+        background:#637074;
+        color: white;
+        border-radius: 10px;
+    }
+
+    input[type=submit]:hover {
+        background:#BDD4E7;
+        border:3px solid #637074;
+        color:#212227;
+    }
+
+    #back {
+        width: 20em;  height: 3em;
+        border:3px solid #AAB9CF;
+        background:#212227;
+        color: white;
+        border-radius: 10px;
+    }
+
+    #back:hover {
+        background:#BDD4E7;
+        border:3px solid #637074;
+        color:#212227;
+    }
+
+    #gameTitle {
+        font-size:6vw;
+        text-shadow: -1px 1px 0 #637074,
+                      1px 1px 0 #637074,
+                     1px -1px 0 #637074;
+                    -1px -1px 0 #637074;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* form starting stylings ------------------------------- */
+    .submitBtn {
+        display: inline-block;
+        position:relative;
+    }
+    .group        { 
+        display: inline-block;
+        position:relative; 
+        margin-bottom:45px;
+    }
+    .group input         {
+      font-size:18px;
+      padding:10px 10px 10px 5px;
+      display:block;
+      width:200px;
+      border:none;
+      border-bottom:1px solid #757575;
+    }
+    input:focus     { outline:none; }
+
+    /* LABEL ======================================= */
+    label          {
+      color:#999; 
+      font-size:18px;
+      font-weight:normal;
+      position:absolute;
+      pointer-events:none;
+      left:5px;
+      top:10px;
+      transition:0.2s ease all; 
+      -moz-transition:0.2s ease all; 
+      -webkit-transition:0.2s ease all;
+    }
+
+    /* active state */
+    .group input:focus ~ label, input:valid ~ label    {
+      top:-20px;
+      font-size:14px;
+      color:#fff;
+    }
+
+    /* BOTTOM BARS ================================= */
+    .bar  { position:relative; display:block; width:215px; margin:auto;}
+    .bar:before, .bar:after   {
+      content:'';
+      height:2px; 
+      width:0;
+      bottom:1px; 
+      position:absolute;
+      background:#5264AE; 
+      transition:0.2s ease all; 
+      -moz-transition:0.2s ease all; 
+      -webkit-transition:0.2s ease all;
+    }
+    .bar:before {
+      left:50%;
+    }
+    .bar:after {
+      right:50%; 
+    }
+
+    /* active state */
+    .group input:focus ~ .bar:before, input:focus ~ .bar:after {
+      width:50%;
+    }
+
+    /* HIGHLIGHTER ================================== */
+    .highlight {
+      position:absolute;
+      height:60%; 
+      width:100px; 
+      top:25%; 
+      left:0;
+      pointer-events:none;
+      opacity:0.5;
+    }
+
+    /* active state */
+    .group input:focus ~ .highlight {
+      -webkit-animation:inputHighlighter 0.3s ease;
+      -moz-animation:inputHighlighter 0.3s ease;
+      animation:inputHighlighter 0.3s ease;
+    }
+
+    /* ANIMATIONS ================ */
+    @-webkit-keyframes inputHighlighter {
+      from { background:#5264AE; }
+      to  { width:0; background:transparent; }
+    }
+    @-moz-keyframes inputHighlighter {
+      from { background:#5264AE; }
+      to  { width:0; background:transparent; }
+    }
+    @keyframes inputHighlighter {
+      from { background:#5264AE; }
+      to  { width:0; background:transparent; }
+    }
+}
+@media screen and (min-width: 601px) {
+    html {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        background: #212227;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: Georgia, serif;
+        position: relative;
+        display: block;
+        background: #8693AB;
+        top: 15%;
+        width: 50%;
+        min-height: 50%;
+        max-height: 1000px;
+        padding: 50px;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    .center {
+        position: relative;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        width: 100%;
+        max-height: 100%;
+        text-align:center;
+        font-size:18pt;
+    }
+    
+    #songList {
+        display:block;
+        position: relative;
+        width:100%;
+        margin: auto;
+        text-align:center;
+    }
+    
+    .songName {
+        width: 150px;
+        padding: 10px;
+        border: 3px solid #212227;
+        background: #BDD4E7;
+        display:block;
+        position: relative;
+        margin:auto;
+        border-radius: 20px;
+    }
+    .songName:hover {
+        width: 150px;
+        padding: 10px;
+        border: 3px solid #BDD4E7;
+        background: #212227;
+        display:block;
+        position: relative;
+        margin:auto;
+        border-radius: 20px;
+    }
+    a:link {
+        text-decoration:none;
+        color:#212227;
+    }
+    a:visited {
+        text-decoration:none;
+        color:#212227;
+    }
+    
+    a:hover {
+        text-decoration:none;
+        color:white;
+    }
+
+    #question {
+        width: 100%;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+
+    #answer {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    #inputgroup {
+        width: 100%;
+    }
+
+    #back {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    input[type=submit] {
+        width: 10em;  height: 3em;
+        border:3px solid #AAB9CF;
+        background:#637074;
+        color: white;
+        border-radius: 10px;
+    }
+
+    input[type=submit]:hover {
+        background:#BDD4E7;
+        border:3px solid #637074;
+        color:#212227;
+    }
+
+    #back {
+        width: 20em;  height: 3em;
+        border:3px solid #AAB9CF;
+        background:#212227;
+        color: white;
+        border-radius: 10px;
+    }
+
+    #back:hover {
+        background:#BDD4E7;
+        border:3px solid #637074;
+        color:#212227;
+    }
+
+    #gameTitle {
+        font-size:6vw;
+        text-shadow: -1px 1px 0 #637074,
+                      1px 1px 0 #637074,
+                     1px -1px 0 #637074;
+                    -1px -1px 0 #637074;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* form starting stylings ------------------------------- */
+    .submitBtn {
+        display: inline-block;
+        position:relative;
+    }
+    .group        { 
+        display: inline-block;
+        position:relative; 
+        margin-bottom:45px;
+    }
+    .group input         {
+      font-size:18px;
+      padding:10px 10px 10px 5px;
+      display:block;
+      width:300px;
+      border:none;
+      border-bottom:1px solid #757575;
+        margin: auto;
+    }
+    input:focus     { outline:none; }
+
+    /* LABEL ======================================= */
+    label          {
+      color:#999; 
+      font-size:18px;
+      font-weight:normal;
+      position:absolute;
+      pointer-events:none;
+      left:5px;
+      top:10px;
+      transition:0.2s ease all; 
+      -moz-transition:0.2s ease all; 
+      -webkit-transition:0.2s ease all;
+    }
+
+    /* active state */
+    .group input:focus ~ label, input:valid ~ label    {
+      top:-20px;
+      font-size:14px;
+      color:#fff;
+    }
+
+    /* BOTTOM BARS ================================= */
+    .bar  { position:relative; display:block; width:315px; margin:auto;}
+    .bar:before, .bar:after   {
+      content:'';
+      height:2px; 
+      width:0;
+      bottom:1px; 
+      position:absolute;
+      background:#5264AE; 
+      transition:0.2s ease all; 
+      -moz-transition:0.2s ease all; 
+      -webkit-transition:0.2s ease all;
+    }
+    .bar:before {
+      left:50%;
+    }
+    .bar:after {
+      right:50%; 
+    }
+
+    /* active state */
+    .group input:focus ~ .bar:before, input:focus ~ .bar:after {
+      width:50%;
+    }
+
+    /* HIGHLIGHTER ================================== */
+    .highlight {
+      position:absolute;
+      height:60%; 
+      width:100px; 
+      top:25%; 
+      left:0;
+      pointer-events:none;
+      opacity:0.5;
+    }
+
+    /* active state */
+    .group input:focus ~ .highlight {
+      -webkit-animation:inputHighlighter 0.3s ease;
+      -moz-animation:inputHighlighter 0.3s ease;
+      animation:inputHighlighter 0.3s ease;
+    }
+
+    /* ANIMATIONS ================ */
+    @-webkit-keyframes inputHighlighter {
+      from { background:#5264AE; }
+      to  { width:0; background:transparent; }
+    }
+    @-moz-keyframes inputHighlighter {
+      from { background:#5264AE; }
+      to  { width:0; background:transparent; }
+    }
+    @keyframes inputHighlighter {
+      from { background:#5264AE; }
+      to  { width:0; background:transparent; }
+    }
+}
