@@ -40,6 +40,58 @@
                     "Answer": "From the silent seed."
                 }
             }
+        }, "Tears Fall In My Heart": {
+            "Song": {
+                "Line01": {
+                    "Question": "Il pleure dans mon cœur",
+                    "Answer": "The tears fall in my soul"
+                }, "Line02": {
+                    "Question": "Comme il pleut sur la ville",
+                    "Answer": "As the rain on the town"
+                }, "Line03": {
+                    "Question": "Quelle est cette langueur",
+                    "Answer": "Wherefore creeps this deep dole/torpor"
+                }, "Line04": {
+                    "Question": "Qui pénètre mon cœur",
+                    "Answer": "Who penetrates my soul"
+                }, "Line05": {
+                    "Question": "Ô bruit doux de la pluie",
+                    "Answer": "Oh sound sweet of the rain"
+                }, "Line06": {
+                    "Question": "Par terre et sur les toits!",
+                    "Answer": "On the ground and on the rooftops"
+                }, "Line07": {
+                    "Question": "Pour un cœur qui s’ennuie",
+                    "Answer": "For a heart that bored"
+                }, "Line08": {
+                    "Question": "Ô le bruit de la pluie!",
+                    "Answer": "Oh the sound of the rain"
+                }, "Line09": {
+                    "Question": "Il pleure sans raison",
+                    "Answer": "The rain (is) without reason/purpose"
+                }, "Line10": {
+                    "Question": "Dans ce cœur qui s’écœure.",
+                    "Answer": "In this soul who is disgusted"
+                }, "Line11": {
+                    "Question": "Quoi! nulle trahison",
+                    "Answer": "What! No treason"
+                }, "Line12": {
+                    "Question": "Ce deuil est sans raison.",
+                    "Answer": "The mourning is without reason."
+                }, "Line13": {
+                    "Question": "C’est bien la pire peine",
+                    "Answer": "It is indeed the worst pain"
+                }, "Line13": {
+                    "Question": "Dene savoir pour quoi",
+                    "Answer": "Not to know for why"
+                }, "Line15": {
+                    "Question": "Sans amour et sans haine,",
+                    "Answer": "Without love and without hate"
+                }, "Line16": {
+                    "Question": "Mon cœur a tant de peine.",
+                    "Answer": "My heart has so much of pain"
+                }
+            }
         }   
     }
 }
